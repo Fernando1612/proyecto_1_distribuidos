@@ -10,4 +10,4 @@ Para nodo maestro
 
 Para nodo esclavo
 
-``python main.py e`
+`python main.py e`

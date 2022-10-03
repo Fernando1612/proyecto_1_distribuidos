@@ -2,7 +2,7 @@
 
 Implementación de los algoritmos de Berkeley & Cristian para sincronización de relojes.
 
-Ejecutar algortimo de Berkeley
+### Ejecutar algortimo de Berkeley
 
 Para nodo maestro
 
@@ -11,3 +11,14 @@ Para nodo maestro
 Para nodo esclavo
 
 `python main.py e`
+
+
+### Ejecutar algortimo de Cristian
+
+Para nodo servidor
+
+`python main.py s`
+
+Para nodo cliente
+
+`python main.py c`

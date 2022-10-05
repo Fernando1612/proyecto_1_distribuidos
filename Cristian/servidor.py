@@ -13,18 +13,7 @@ class Servidor:
 		self.clientes = {}
 		self._t = threading.Thread(target=self.conectar_clientes)
 		self._t.start()
-		#self.bucle()
 
-	def bucle(self):
-		while True:
-			print()
-			print(f"Hora: {self.reloj.obtener_reloj()}")
-			print(f"Fecha: {self.reloj.obtener_fecha()}")
-			print()
-			print("------------------")
-			print("Broadcasting...")
-			self.broadcast_reloj()
-			time.sleep(10)
 
 	def broadcast_reloj(self):
 		""" Mandar mensae de roloj a los clientes"""

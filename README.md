@@ -1,4 +1,4 @@
-# Proyecto_1_distribuidos
+# Proyecto 1: Algoritmos de sincronización de tiempo
 
 Implementación de los algoritmos de Berkeley & Cristian para sincronización de relojes.
 
